@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34C2770B1CDB356800DDFA6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2770A1CDB356800DDFA6D /* AppDelegate.swift */; };
+		34C2770D1CDB356800DDFA6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2770C1CDB356800DDFA6D /* ViewController.swift */; };
+		34C277101CDB356800DDFA6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C2770E1CDB356800DDFA6D /* Main.storyboard */; };
+		34C277121CDB356800DDFA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C277111CDB356800DDFA6D /* Assets.xcassets */; };
+		34C277151CDB356800DDFA6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C277131CDB356800DDFA6D /* LaunchScreen.storyboard */; };
+		34C277201CDB356800DDFA6D /* CampNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2771F1CDB356800DDFA6D /* CampNavTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34C2771C1CDB356800DDFA6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34C276FF1CDB356800DDFA6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C277061CDB356800DDFA6D;
+			remoteInfo = CampNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34C277071CDB356800DDFA6D /* CampNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C2770A1CDB356800DDFA6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34C2770C1CDB356800DDFA6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34C2770F1CDB356800DDFA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34C277111CDB356800DDFA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34C277141CDB356800DDFA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34C277161CDB356800DDFA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C2771B1CDB356800DDFA6D /* CampNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C2771F1CDB356800DDFA6D /* CampNavTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampNavTests.swift; sourceTree = "<group>"; };
+		34C277211CDB356800DDFA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34C277041CDB356800DDFA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C277181CDB356800DDFA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34C276FE1CDB356800DDFA6D = {
+			isa = PBXGroup;
+			children = (
+				34C277091CDB356800DDFA6D /* CampNav */,
+				34C2771E1CDB356800DDFA6D /* CampNavTests */,
+				34C277081CDB356800DDFA6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34C277081CDB356800DDFA6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34C277071CDB356800DDFA6D /* CampNav.app */,
+				34C2771B1CDB356800DDFA6D /* CampNavTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34C277091CDB356800DDFA6D /* CampNav */ = {
+			isa = PBXGroup;
+			children = (
+				34C2770A1CDB356800DDFA6D /* AppDelegate.swift */,
+				34C2770C1CDB356800DDFA6D /* ViewController.swift */,
+				34C2770E1CDB356800DDFA6D /* Main.storyboard */,
+				34C277111CDB356800DDFA6D /* Assets.xcassets */,
+				34C277131CDB356800DDFA6D /* LaunchScreen.storyboard */,
+				34C277161CDB356800DDFA6D /* Info.plist */,
+			);
+			path = CampNav;
+			sourceTree = "<group>";
+		};
+		34C2771E1CDB356800DDFA6D /* CampNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				34C2771F1CDB356800DDFA6D /* CampNavTests.swift */,
+				34C277211CDB356800DDFA6D /* Info.plist */,
+			);
+			path = CampNavTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34C277061CDB356800DDFA6D /* CampNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C277241CDB356800DDFA6D /* Build configuration list for PBXNativeTarget "CampNav" */;
+			buildPhases = (
+				34C277031CDB356800DDFA6D /* Sources */,
+				34C277041CDB356800DDFA6D /* Frameworks */,
+				34C277051CDB356800DDFA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CampNav;
+			productName = CampNav;
+			productReference = 34C277071CDB356800DDFA6D /* CampNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34C2771A1CDB356800DDFA6D /* CampNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C277271CDB356800DDFA6D /* Build configuration list for PBXNativeTarget "CampNavTests" */;
+			buildPhases = (
+				34C277171CDB356800DDFA6D /* Sources */,
+				34C277181CDB356800DDFA6D /* Frameworks */,
+				34C277191CDB356800DDFA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34C2771D1CDB356800DDFA6D /* PBXTargetDependency */,
+			);
+			name = CampNavTests;
+			productName = CampNavTests;
+			productReference = 34C2771B1CDB356800DDFA6D /* CampNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34C276FF1CDB356800DDFA6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = chuna;
+				TargetAttributes = {
+					34C277061CDB356800DDFA6D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					34C2771A1CDB356800DDFA6D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 34C277061CDB356800DDFA6D;
+					};
+				};
+			};
+			buildConfigurationList = 34C277021CDB356800DDFA6D /* Build configuration list for PBXProject "CampNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34C276FE1CDB356800DDFA6D;
+			productRefGroup = 34C277081CDB356800DDFA6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34C277061CDB356800DDFA6D /* CampNav */,
+				34C2771A1CDB356800DDFA6D /* CampNavTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34C277051CDB356800DDFA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C277151CDB356800DDFA6D /* LaunchScreen.storyboard in Resources */,
+				34C277121CDB356800DDFA6D /* Assets.xcassets in Resources */,
+				34C277101CDB356800DDFA6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C277191CDB356800DDFA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34C277031CDB356800DDFA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C2770D1CDB356800DDFA6D /* ViewController.swift in Sources */,
+				34C2770B1CDB356800DDFA6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C277171CDB356800DDFA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C277201CDB356800DDFA6D /* CampNavTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34C2771D1CDB356800DDFA6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C277061CDB356800DDFA6D /* CampNav */;
+			targetProxy = 34C2771C1CDB356800DDFA6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34C2770E1CDB356800DDFA6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C2770F1CDB356800DDFA6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34C277131CDB356800DDFA6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C277141CDB356800DDFA6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34C277221CDB356800DDFA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34C277231CDB356800DDFA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34C277251CDB356800DDFA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CampNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neusoft.CampNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34C277261CDB356800DDFA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CampNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neusoft.CampNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34C277281CDB356800DDFA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CampNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neusoft.CampNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampNav.app/CampNav";
+			};
+			name = Debug;
+		};
+		34C277291CDB356800DDFA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CampNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neusoft.CampNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampNav.app/CampNav";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34C277021CDB356800DDFA6D /* Build configuration list for PBXProject "CampNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C277221CDB356800DDFA6D /* Debug */,
+				34C277231CDB356800DDFA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C277241CDB356800DDFA6D /* Build configuration list for PBXNativeTarget "CampNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C277251CDB356800DDFA6D /* Debug */,
+				34C277261CDB356800DDFA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34C277271CDB356800DDFA6D /* Build configuration list for PBXNativeTarget "CampNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C277281CDB356800DDFA6D /* Debug */,
+				34C277291CDB356800DDFA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34C276FF1CDB356800DDFA6D /* Project object */;
+}
